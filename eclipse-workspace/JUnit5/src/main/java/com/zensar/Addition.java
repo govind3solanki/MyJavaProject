@@ -4,6 +4,9 @@ public class Addition {
 	public Integer add(int a, int b) {
 		return a + b;
 	}
+	public Integer add2(int a, int b,int c) {
+		return a + b+c;
+	}
 	public Integer sub(int a, int b) {
 		return a - b;
 	}
