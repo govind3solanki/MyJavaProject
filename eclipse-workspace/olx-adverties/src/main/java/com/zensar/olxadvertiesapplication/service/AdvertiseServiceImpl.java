@@ -39,7 +39,6 @@ public class AdvertiseServiceImpl implements AdvertiseService {
 		if (token2.equals("gs66548")) {
 			Optional<Advertise> findAny = advertiseList.stream().filter(advertise -> advertise.getCategoryId() == id)
 					.findAny();
-
 			if (findAny.isPresent()) {
 				Advertise adv = findAny.get();
 				adv.setTitle(advertise2.getTitle());
