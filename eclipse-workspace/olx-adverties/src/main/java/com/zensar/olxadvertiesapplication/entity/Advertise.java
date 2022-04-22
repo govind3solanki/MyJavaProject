@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class Advertise {
 
-	private int id;
+	private int categoryId;
 	private String title;
 	private int price;
 	private String category;
