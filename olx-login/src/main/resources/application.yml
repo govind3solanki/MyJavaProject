@@ -1,0 +1,16 @@
+server:
+  port: 5001
+
+spring:
+  datasource:
+    password: root
+    url: jdbc:mysql://localhost:3306/LoginApp
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+      format_sql: true
+    show-sql: true
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
